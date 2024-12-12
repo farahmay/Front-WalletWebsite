@@ -1,0 +1,21 @@
+.header-buttons {
+ 
+}
+
+.download-btn {
+    background-color: #0C82EE;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    width: 211px;
+    height: 57.68px;
+    padding: 17.84px 26.76px;
+    gap: 8.92px;
+    border-radius: 35.36px;
+    justify-content: space-between;
+}
+
+.download-btn:hover {
+    background-color: #0C82EE;
+}

@@ -1,0 +1,154 @@
+/* Header Component Styling */
+
+  .features {
+    display: flex;
+    justify-content: space-around;
+    background: #fff;
+    padding: 40px;
+  }
+  
+  .steps {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+  
+  .testimonial-list {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .testimonial-card {
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+
+  .header-nav {
+    display: flex;
+    gap: 1.5rem;
+  }
+
+  .header-nav a {
+    color: #333;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 500;
+  }
+
+  .header-nav a:hover {
+    color: #007bff;
+  }
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    }
+
+    .header-content, .header-image {
+        flex: 1;
+        max-width: 50%;
+    }
+
+    .header-content {
+        padding-right: 20px;
+    }
+
+    .header-image img {
+        width: 100%;
+        height: auto;
+    }
+
+
+  .header-content {
+    max-width: 800px;
+    margin: 2rem auto;
+    text-align: center;
+  }
+
+
+
+.header-content h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.header-content p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.header-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.download-btn {
+  background-color: #007bff;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 0.25rem;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.download-btn:hover {
+  background-color: #0056b3;
+}
+
+
+.header-nav {
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 10px;
+}
+
+.header-nav a {
+    color: rgb(85, 84, 84);
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.header-nav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-right: auto;
+}
+
+.auth-buttons {
+    margin-left: auto;
+}
+
+.signup-button {
+    background: linear-gradient(90deg, #88BCEA 0%, #B1D1EE 46.35%, #C0BCDF 100%);
+    color: white !important;
+    padding: 15px 45px !important;
+    margin: 0 5px;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    border-radius: 11px;
+}
+
+.login-button{
+    color: rgb(44, 44, 44);
+    padding: 10px 20px;
+    margin: 0 5px;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+
+}
